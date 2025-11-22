@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 
 // Example 1: Short Syntax
@@ -14,3 +15,13 @@ function Person() {
   }, 1000);
 }
 const p = new Person();
+=======
+(function showMessage() {
+   "use strict";
+   function greetMe(yourName) {
+     alert("Hello " + yourName);
+     console.log("Hello " + yourName);
+   }
+   greetMe("Shweta");
+})();
+>>>>>>> 79d30e1 (first commit)
